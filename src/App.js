@@ -2,6 +2,7 @@ import Home from './routes/home/home.component'
 import Navigation from './routes/navigation/navigation.component';
 import { Routes, Route} from 'react-router-dom';
 import Authentication from './routes/authentication/authentication.component';
+import Shop from './routes/shop/shop.component';
 const App = () => { 
   return(
   <Routes>
@@ -16,12 +17,12 @@ const App = () => {
   )
 }
 // <Rounte index make the component as default show in the parent route
-const Shop =()=>{
-  return(
-    <h1>I am the shop Page</h1>
+// const Shop =()=>{
+//   return(
+//     <h1>I am the shop Page</h1>
 
-  )
-}
+//   )
+// }
 
 
 //This Rountes works because App was wrapped by <BrowserRouter></BrowserRouter>
