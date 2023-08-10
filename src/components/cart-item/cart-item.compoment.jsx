@@ -1,5 +1,6 @@
 import './cart-item.styles.scss'
 const CartItem = ({cartItem}) => {
+    // if pass new cartItem object its going to render cartItem
     const {name, quantity, imageUrl, price} = cartItem;
     return (
         <div className='cart-item-container'>
